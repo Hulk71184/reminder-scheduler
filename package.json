@@ -1,14 +1,14 @@
 {
-  "name": "reminder-cron",
-  "type": "module",
+  "name": "reminder-scheduler",
   "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "schedule": "node schedule-reminders.js",
+    "start": "node schedule-reminders.js"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.38.5",
     "dotenv": "^16.3.1",
     "dayjs": "^1.11.9"
-  },
-  "scripts": {
-    "schedule": "node schedule-reminders.js"
-    "start": "echo 'This is a scheduled worker project. Nothing to start.'"
   }
 }
