@@ -9,5 +9,6 @@
   },
   "scripts": {
     "schedule": "node schedule-reminders.js"
+    "start": "echo 'This is a scheduled worker project. Nothing to start.'"
   }
 }
