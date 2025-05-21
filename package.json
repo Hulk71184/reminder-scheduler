@@ -4,11 +4,14 @@
   "type": "module",
   "scripts": {
     "schedule": "node schedule-reminders.js",
+    "send": "node send-reminders.js",
     "start": "node schedule-reminders.js"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
     "@supabase/supabase-js": "^2.38.5",
+    "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
-    "dayjs": "^1.11.9"
+    "twilio": "^5.6.1"
   }
 }
